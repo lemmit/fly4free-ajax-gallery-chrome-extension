@@ -1,0 +1,12 @@
+{
+  "manifest_version" : 2,
+  "version" : "1.0",
+  "name": "Fly 4 free Ajax Galleries Extension",
+  "content_scripts": [
+    {
+      "matches": ["http://www.fly4free.pl/*"],
+      "js": ["appender.js"]
+    }
+  ],
+   "web_accessible_resources": ["fly4free-gallery-extension.js"]
+}
